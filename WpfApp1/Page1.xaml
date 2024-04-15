@@ -1,0 +1,20 @@
+﻿<Page x:Class="WpfApp1.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800" Background="#FFFFE0"
+      Title="Page1">
+
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" Text="Логин ли почта" VerticalAlignment="Top" Foreground="#A9A9A9" Width="140" Margin="338,120,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" Foreground="#A9A9A9" Width="140" Margin="338,166,0,0"/>
+        <Button Content="Вход" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Margin="338,211,0,0" Height="40" RenderTransformOrigin="0.5,0.05" Background="#B0E0E6" />
+        <Button Content="Регистрация" HorizontalAlignment="Left" Height="40" Margin="338,256,0,0" VerticalAlignment="Top" Width="140" Click="Button_Click" Background="#B0E0E6" />
+        <Label Content="Логин" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="279,120,0,0" Height="40"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="7.974,6.846" Margin="279,166,0,0" Height="40"/>
+
+    </Grid>
+</Page>
